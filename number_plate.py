@@ -24,7 +24,7 @@ def detect_and_save_plate(image, count):
 
     return None, image
 
-def main():
+def main(): # main function
     st.title("Number Plate Detection and Saving")
     st.text("Webcam is required for this application.")
 
@@ -57,5 +57,5 @@ def main():
     cap.release()
     cv2.destroyAllWindows()
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     main()
